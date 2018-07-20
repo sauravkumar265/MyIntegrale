@@ -10,6 +10,7 @@ import com.automationframework.utilities.ResourceHelper;
 
 public class ChromeBrowser {
 	public Capabilities getChromeCapabilities() {
+		// Adding capabilities to chrome
 		ChromeOptions option = new ChromeOptions();
 		option.addArguments("start-maximized");
 		DesiredCapabilities chrome = DesiredCapabilities.chrome();
